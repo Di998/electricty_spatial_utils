@@ -19,7 +19,7 @@ This repository provides a collection of Python scripts to automate and optimize
 
 ### 1. `get_geojson_file.py`
 
-This script downloads the GeoJSON file from a specified server using an API. Ensure that the API configuration (e.g., endpoint, parameters) is correctly set within the script before running.
+This script downloads the GeoJSON file from a specified server using an API. Ensure that the API configuration (e.g., endpoint) is correctly set within the script before running.
 
 **Command:**
 
