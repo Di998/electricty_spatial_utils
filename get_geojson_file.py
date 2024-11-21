@@ -2,7 +2,7 @@ import requests
 import json
 
 # Define the base URL for the query
-url = 'https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/RIVERS_LINE/MapServer/0/query'
+url = 'https://ienccloud.us/arcgis/rest/services/IENC_Feature_Classes/SHORELINE_CONSTRUCTION_POINT/MapServer/0/query'
 
 # Parameters for the request
 params = {

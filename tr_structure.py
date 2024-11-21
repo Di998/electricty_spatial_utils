@@ -1,13 +1,13 @@
 import json
 
 # Read the original GeoJSON file
-with open('/Users/di/Desktop/new-layers/output1.geojson', 'r') as f:
+with open('/Users/di/Documents/TechMaven/Tech_Maven_Projects/electricty_spatial_utils/o.geojson', 'r') as f:
     original_geojson = json.load(f)
 
 # Initialize the new GeoJSON structure
 new_geojson = {
     "type": "FeatureCollection",
-    "name": "River_Lines_USACE_IENC",
+    "name": "Shorelines",
     "crs": {
         "type": "name",
         "properties": {

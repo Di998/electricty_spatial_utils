@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Load the GeoJSON file
-with open('/Users/di/Desktop/new-layers/transformed.geojson', 'r') as file:
+with open('/Users/di/Documents/TechMaven/Tech_Maven_Projects/electricty_spatial_utils/transformed.geojson', 'r') as file:
     geojson_data = json.load(file)
 
 # Function to replace NaN and empty strings with null (None in Python) in properties
@@ -19,7 +19,7 @@ def replace_nan_and_empty_with_null(data):
 updated_geojson = replace_nan_and_empty_with_null(geojson_data)
 
 # Save the modified GeoJSON to a new file
-with open('substations_null.geojson', 'w') as file:
+with open('null.geojson', 'w') as file:
     json.dump(updated_geojson, file, indent=2)
 
-print("NaN values and empty strings have been replaced with null and saved to 'substations_null.geojson'.")
+print("NaN values and empty strings have been replaced with null and saved to 'null.geojson'.")
